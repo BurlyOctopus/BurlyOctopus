@@ -1,1 +1,2 @@
-# BurlyOctopus
+# Joe Clarkson
+### Conceptual Developer
