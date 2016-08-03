@@ -43,10 +43,22 @@ h1{
 .workItem{
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
+  margin-top: 40px;
+  align-items: center;
 }
 .workItem h2{
-  margin-top: 0;
+  /*margin-bottom: .2em;*/
+  /*color:#1A535C;*/
+}
+.workItem h5{
+  margin: 0;
+  color:#4ECDC4;
+}
+.workItem a{
+  color:#4ECDC4;
+}
+.workItem a:hover{
+  color:#FF6B6B;
 }
 .workItem > div{
   padding: 20px;
@@ -63,4 +75,9 @@ h1{
 
 .workImage img{
   width: 100%;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.75em;
 }
