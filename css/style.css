@@ -41,6 +41,13 @@ h1{
   order: 2
 }
 
+.red{
+  color:#FF6B6B;
+}
+.green{
+  color:#4ECDC4;
+}
+
 .workItem{
   display: flex;
   justify-content: center;
@@ -96,4 +103,27 @@ p {
     flex-basis: 100%;
     order: 1 !important;
   }
+}
+
+
+h1{
+  font-size: 5em;
+  margin: 1em 0px .25em;
+}
+
+.contact{
+  padding: 40px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact h1{
+text-align: right;
+}
+.contact a{
+  color:#FF6B6B;
+}
+.contact a:hover{
+  color:#4ECDC4;
 }
