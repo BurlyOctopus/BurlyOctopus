@@ -28,6 +28,7 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .workContainer{
   max-width: 1260px;
@@ -43,10 +44,22 @@ h1{
 .workItem{
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
+  margin-top: 40px;
+  align-items: center;
 }
 .workItem h2{
   margin-top: 0;
+  /*color:#1A535C;*/
+}
+.workItem h5{
+  margin: 0;
+  color:#4ECDC4;
+}
+.workItem a{
+  color:#4ECDC4;
+}
+.workItem a:hover{
+  color:#FF6B6B;
 }
 .workItem > div{
   padding: 20px;
@@ -63,4 +76,24 @@ h1{
 
 .workImage img{
   width: 100%;
+  box-shadow: -1px 0px 10px 2px rgba(40, 58, 52, 0.28);
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+@media (max-width:700px) {
+  .workItem{
+    flex-wrap: wrap;
+  }
+  .workItem .workText{
+    flex-basis: 100%;
+    order: 2 !important;
+  }
+  .workItem .workImage{
+    flex-basis: 100%;
+    order: 1 !important;
+  }
 }
